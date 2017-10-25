@@ -4,9 +4,6 @@ import { Container, Button, Text, Spinner } from "native-base";
 
 import styles from "./styles";
 
-const launchscreenBg = require("../../../img/launchscreen-bg.png");
-const launchscreenLogo = require("../../assets/image/masan-logo.jpg");
-
 class Loading extends Component {
 
   constructor(props) {
