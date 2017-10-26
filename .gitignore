@@ -32,7 +32,15 @@ local.properties
 
 # node.js
 #
-node_modules/
+node_modules/*
+!node_modules/react-native-code-push
+!node_modules/react-native-vector-icons
+!node_modules/mobile-center-crashes
+!node_modules/mobile-center-analytics
+!node_modules/mobile-center
+!node_modules/react-native-svg
+!node_modules/realm
+!node_modules/react-native-svg
 npm-debug.log
 yarn-error.log
 
